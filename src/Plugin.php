@@ -2,7 +2,6 @@
 
 /*
  * This file is part of Disable All Comments.
- *
  * (c) Pressware, LLC <support@pressware.co>
  *
  * This source file is subject to the GPL license that is bundled
@@ -19,7 +18,6 @@ use BloggingPlugins\Utilities\Registry;
  */
 class Plugin
 {
-
     /**
      * @param Registry $registry a reference to the simple container used to maintain plugin objects
      */

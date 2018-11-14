@@ -1,8 +1,7 @@
 <?php
 
 /*
- * This file is part of the YMconnect WordPress Plugin
- *
+ * This file is part of Disable All Comments.
  * (c) Pressware, LLC <support@pressware.co>
  *
  * This source file is subject to the GPL license that is bundled

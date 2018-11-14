@@ -2,18 +2,16 @@
 
 /*
  * This file is part of Disable All Comments.
- *
  * (c) Pressware, LLC <support@pressware.co>
  *
  * This source file is subject to the GPL license that is bundled
  * with this source code in the file LICENSE.
  */
 
-
 namespace BloggingPlugins\Utilities;
 
-use Exception;
 use BloggingPlugins\Subscriber\AbstractSubscriber;
+use Exception;
 
 /**
  * This class services as a simple container that can be used to pass objects

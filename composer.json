@@ -1,0 +1,42 @@
+{
+    "name": "disable-all-comments/disable-all-comments",
+    "description": "Disables all WordPress comments while also allowing you to turn them back on at a per-post level..",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/tommcfarlin/disable-all-comments",
+    "authors": [
+      {
+        "name": "Tom McFarlin",
+        "email": "tom@pressware.co",
+        "homepage": "https://pressware.co"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/tommcfarlin/disable-all-comments/issues"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "platform": {
+          "php": "7.1"
+      }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require": {
+      "php": "7.1",
+      "composer/installers": "^1.4"
+    },
+    "require-dev": {
+        "phpro/grumphp": "^0.13.1"
+    },
+    "scripts": {
+      "test": [
+        "./vendor/bin/grumphp run"
+      ]
+    },
+    "minimum-stability": "stable"
+  }
