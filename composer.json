@@ -31,6 +31,11 @@
       "composer/installers": "^1.4"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13.1",
+        "jakub-onderka/php-parallel-lint": "^1.0.0",
+        "phpmd/phpmd": "^v2.6.0",
+        "nikic/php-parser": "^4.0",
+        "ocramius/proxy-manager": "^2.0.0",
         "phpro/grumphp": "^0.13.1"
     },
     "scripts": {
