@@ -35,13 +35,12 @@ spl_autoload_register(function ($filename) {
 
     // Get the last index of the array. This is the class we're loading.
     if (isset($filePath[count($filePath) - 1])) {
-        $classFile = strtolower(
-            $filePath[ count( $filePath ) - 1 ]
+        $classFile = (
+            $filePath[count($filePath) - 1]
         );
 
         // The classname has an underscore, so we need to replace it with a hyphen for the file name.
-        $classFile = str_ireplace('_', '-', $classFile);
-        $classFile = "class-$classFile.php";
+        $classFile = "$classFile.php";
     }
 
     /**
